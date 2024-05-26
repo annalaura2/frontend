@@ -1,0 +1,14 @@
+.border{
+    border: 10px solid blueviolet;
+    padding: 10px 5px 14px 20px;
+}
+
+.bordaI{
+    border-bottom: 10px solid blue;
+    border-top: 15px double black;
+}
+
+.borderR{
+    border-radius: 10px;
+    border: 5px solid blue;
+}
