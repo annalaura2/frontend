@@ -1,0 +1,24 @@
+.title{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.texto1{
+    position: static;
+    text-align: center;
+}
+
+.texto2{
+    text-align: center;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+
+.texto3{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: blueviolet;
+}
