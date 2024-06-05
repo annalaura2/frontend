@@ -1,0 +1,17 @@
+.main-title{
+    text-align: center;
+    border-top: 5px dashed #8b352d44;
+    border-bottom: 5px dashed #8b352d44;
+    margin-top: 25px 0;
+    margin-bottom: 25px 0;
+    font-size: 40px;
+
+}
+
+.formulario1{
+    text-align: center;
+}
+
+.atributo-name{
+    text-align: center;
+}
