@@ -28,12 +28,83 @@
             </form>
 
          </div>
+
+         <!--select-->
+         <div class="select">
+         <label for="job"> Selecione a sua profissão: </label>
+         <select name="job">
+            <option value="programdor">programador</option>
+            <option value = "advogado">advogada</option>
+            <option value = "professor">professor</option>
+         </select>
+        </div>
+
+        <!--atributo selected-->
+        <div class="selected">
+            <label for="contract">você leu os termos de contrato?</label>
+            <select name="contract">
+                <option value="yes">sim</option>
+                <option value="no" selected>não</option>
+            </select>
+        </div>
+
+        <!--múltiplas opções-->
+        <div class="moreOptions">
+            <label for="compras">lista de compras:</label>
+            <select name="compras" multiple>
+                <option value="feijao">feijão</option>
+                <option value="arroz">arroz</option>
+                <option value="frango">frango</option>
+            </select>
+        </div>
+
+        <!--textarea-->
+        <div class="comment">
+            <label for = "comentario"> escreva o que achou: </label>
+            <textarea name = "comentario" cols="10" rows="10"></textarea>
+        </div>
+
+        <!--fieldset e legend-->
+        <div class="informacoes">
+            <fieldset>
+                <legend>preencha as informações</legend>
+                <label for="nome">Nome: </label>
+                <input name="nome">
+                <label for="sobrenome">Sobrenome:</label>
+                <input name="sobrenome">
+            </fieldset>
+        </div>
+
+        <!--datalis-->
+        <div>
+            <label for="flavor">escolha os sabores:</label>
+            <input type ="text" list = "flavors" name="flavor">
+
+            <datalist id="flavors">
+                <option value="cereja"></option>
+                <option value="chocolate"></option>
+                <option value = "morango"></option>
+            </datalist>
+        </div>
+
+        <!--senha-->
+        <div>
+            <label for = "password">digite a senha:</label>
+            <input type="password" name="password">
+        </div>
+
+        <div>
+            <label for="teste">digite algo</label>
+            <div>
+            <input name="teste" type="radio" value="1">
+            <label for="1">1</label>
+            <input name = "teste" type = "radio" value ="2">
+            <label for="2">2</label>
+            </div>
+            
+        </div>
+
     </div>
-
-   
-
-
-
 
 </body>
 </html>
