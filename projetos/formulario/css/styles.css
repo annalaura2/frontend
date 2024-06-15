@@ -23,10 +23,15 @@ input{
     padding: 10px 0;
 }
 
+textarea{
+    padding: 10px 5px;
+    width: 400px;
+}
+
 input[type = "text"], 
-input[type"number"], 
+input[type ="number"], 
 input[type="date"], 
-input[type = "file"]
+input[type = "file"], 
 {
     width: 400px;
 
